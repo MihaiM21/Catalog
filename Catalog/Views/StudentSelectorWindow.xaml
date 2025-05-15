@@ -1,0 +1,28 @@
+<Window x:Class="StudentGradeManagement.Views.StudentSelectorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StudentGradeManagement.Views"
+        mc:Ignorable="d"
+        Title="Selectare Student" Height="300" Width="400"
+        Background="#1E1E1E"
+        WindowStartupLocation="CenterOwner">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <TextBlock Grid.Row="0" Text="Selectați un student:" Margin="0,0,0,10"/>
+        
+        <ListBox Grid.Row="1" x:Name="lstStudents" DisplayMemberPath="NumeComplet" 
+                 SelectionMode="Single" Margin="0,0,0,10"/>
+        
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="Selectează" Width="80" Height="30" Margin="0,0,10,0" Click="BtnSelect_Click" Style="{StaticResource PrimaryButtonStyle}"/>
+            <Button Content="Anulează" Width="80" Height="30" IsCancel="True"/>
+        </StackPanel>
+    </Grid>
+</Window>

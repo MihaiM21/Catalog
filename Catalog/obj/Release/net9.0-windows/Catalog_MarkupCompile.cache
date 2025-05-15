@@ -1,0 +1,20 @@
+﻿Catalog
+
+
+winexe
+C#
+.cs
+C:\Stuff and Games\Programming\VS projects\Catalog\Catalog\obj\Release\net9.0-windows\
+Catalog
+none
+false
+TRACE;RELEASE;NET;NET9_0;NETCOREAPP
+C:\Stuff and Games\Programming\VS projects\Catalog\Catalog\App.xaml
+91610949060
+
+19-696600112
+203-935909165
+MainWindow.xaml;Themes\DarkTheme.xaml;Views\DisciplinaGradesWindow.xaml;Views\DisciplinaSelectorWindow.xaml;Views\DisciplinaWindow.xaml;Views\NotaWindow.xaml;Views\StudentGradesWindow.xaml;Views\StudentSelectorWindow.xaml;Views\StudentWindow.xaml;
+
+False
+
