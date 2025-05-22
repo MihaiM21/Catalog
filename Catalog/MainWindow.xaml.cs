@@ -494,7 +494,7 @@ namespace StudentGradeManagement
                 dgReport.Columns.Add(new DataGridTextColumn { Header = "ID", Binding = new System.Windows.Data.Binding("StudentId") });
                 dgReport.Columns.Add(new DataGridTextColumn { Header = "Student", Binding = new System.Windows.Data.Binding("NumeComplet"), Width = 200 });
                 dgReport.Columns.Add(new DataGridTextColumn { Header = "Grupa", Binding = new System.Windows.Data.Binding("Grupa"), Width = 100 });
-                dgReport.Columns.Add(new DataGridTextColumn { Header = "Nota", Binding = new System.Windows.Data.Binding("ValoareNota"), Width = 80 });
+                //dgReport.Columns.Add(new DataGridTextColumn { Header = "Nota", Binding = new System.Windows.Data.Binding("ValoareNota"), Width = 80 });
                 dgReport.Columns.Add(new DataGridTextColumn { Header = "Data Notării", Binding = new System.Windows.Data.Binding("DataNotarii"), Width = 120 });
                 dgReport.Columns.Add(new DataGridTextColumn { Header = "Status", Binding = new System.Windows.Data.Binding("Status"), Width = 100 });
                 

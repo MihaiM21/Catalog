@@ -24,7 +24,7 @@
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Student" Binding="{Binding StudentNume}" Width="200"/>
                 <DataGridTextColumn Header="Grupa" Binding="{Binding Grupa}" Width="100"/>
-                <DataGridTextColumn Header="Notă" Binding="{Binding ValoareNota}" Width="80"/>
+                <!-- <DataGridTextColumn Header="Notă" Binding="{Binding ValoareNota}" Width="80"/> -->
                 <DataGridTextColumn Header="Data Notării" Binding="{Binding DataNotarii, StringFormat=\{0:dd.MM.yyyy\}}" Width="120"/>
                 <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="100"/>
             </DataGrid.Columns>
